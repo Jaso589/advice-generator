@@ -3,7 +3,7 @@ const callApi = async ()=>{
 
     const data = await res.json()
 
-    document.querySelector('.title').innerHTML = `Advice #${data.slip.id}`
+    document.querySelector('.title').innerHTML = `ADVICE #${data.slip.id}`
     document.querySelector('.text').textContent = `"${data.slip.advice}"`
 }
 

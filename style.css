@@ -5,11 +5,11 @@
 }
 :root{
     --primary: #1FE191 ;
-    --secondary:#364146   ;
+    --secondary:#353B4B ;
     --parrafo: #EBFFF7 ;
 }
 html, body{
-    background-color:#192024 ;
+    background-color:#232731 ;
     font-size: 16px;
     height: 100vh;
     display: flex;
@@ -23,17 +23,20 @@ html, body{
 main{
     background-color: var(--secondary);
     display: flex;
+    height: 280px;
     border-radius: 10px;
     margin: 10rem 25rem;
     padding: 20px;
     text-align: center;
     flex-direction: column;
     position: relative;
-    box-shadow: 0 0 2px var(--secondary);
+    box-shadow: 0 0 3px var(--secondary);
 }
 
 main h1{
     color:var(--primary) ;
+    font-size: 0.8rem;
+    margin-top: 1rem;
 }
 main p{
     color: var(--parrafo);
@@ -59,7 +62,7 @@ main div button{
     background-color:var(--primary);
     cursor: pointer;
     position: relative;
-    bottom: -50px;
+    bottom: -20px;
 }
 .btn:hover{
     box-shadow: 0 0 10px #1FE191 ;
